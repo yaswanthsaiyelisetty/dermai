@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DermAI wireframes</title>
+  <style>
+    body{font:16px system-ui;margin:0;background:#f4f7f5;color:#173b3a}main{max-width:1100px;margin:auto;padding:32px}section{background:white;border:2px solid #9cbab3;border-radius:16px;padding:24px;margin:24px 0}h1{font-size:32px}h2{margin-top:0}.row{display:flex;gap:20px;flex-wrap:wrap}.card{border:1px dashed #799d94;border-radius:10px;padding:16px;flex:1;min-width:220px}.field{border:1px solid #b9c9c3;padding:10px;border-radius:6px;margin:10px 0;color:#71837d}.button{display:inline-block;background:#176b66;color:white;padding:10px 16px;border-radius:6px;margin-top:8px}.muted{color:#71837d}.status{display:inline-block;border-radius:99px;background:#e4f3e8;padding:4px 9px;font-size:12px}
+  </style>
+</head>
+<body><main>
+  <h1>DermAI / Milestone 1 wireframes</h1><p class="muted">Implementation-ready screen structure; controls are intentionally non-functional.</p>
+  <section><h2>01 — Login / Registration</h2><div class="row"><div class="card"><h3>Sign in</h3><div class="field">Username</div><div class="field">Password</div><div class="button">Sign in</div><p class="muted">Need an account? Register</p><p class="muted">Error: invalid credentials</p></div><div class="card"><h3>Create account</h3><div class="field">Username</div><div class="field">Password</div><div class="field">Confirm password</div><div class="button">Create account</div><p class="muted">Already registered? Sign in</p></div></div></section>
+  <section><h2>02 — Dashboard / Case list</h2><div class="card"><p class="muted">DERMAI WORKSPACE · Overview · Cases · Upload image · Log out</p><h3>Your cases <span class="button">New case</span></h3><div class="row"><div class="card"><span class="status">open</span><h3>Example case</h3><p class="muted">Description and last-updated timestamp</p></div><div class="card"><p class="muted">Empty state</p><h3>No cases yet</h3><p>Create your first case.</p></div></div></div></section>
+  <section><h2>03 — Image upload</h2><div class="card"><h3>Upload an image</h3><div class="field">Drag and drop or choose file · JPG, JPEG, PNG · max 10 MB</div><div class="field">Image preview area</div><div class="field">Associate with case (optional)</div><div class="button">Validate image</div><p class="muted">Loading / success / validation error states appear below the form.</p></div></section>
+  <section><h2>04 — Case create / details / edit</h2><div class="row"><div class="card"><h3>Create case</h3><div class="field">Case title</div><div class="field">Description</div><div class="field">Status: open / in progress / closed</div><div class="button">Create case</div></div><div class="card"><h3>Case details</h3><span class="status">in progress</span><p>Title, description, timestamps, associated image count</p><div class="button">Edit case</div> <div class="button">Delete case</div></div></div></section>
+</main></body></html>
